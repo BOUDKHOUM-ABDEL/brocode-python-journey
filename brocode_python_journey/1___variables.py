@@ -1,12 +1,11 @@
 
 
 #sring
-from operator import is_
 
 
 first_name= "Bro code"
 print(first_name)
-print(f"Hello {first_name}") #fstring
+print(f"Hello {first_name}") #f-string
 
 food=("pizza")
 print(f"you like {food}")
