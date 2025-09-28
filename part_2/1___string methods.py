@@ -4,6 +4,8 @@ name=input("Enter your name: ")
 phone_number=input("Enter your phone number: ")
 
 result=len(name) # length of string 
+result=name.find("a") # find the index of a specific character (returns -1 if not found)
+result=name.rfind("a") # find the last occurrence of a specific character
 result=name.upper() # convert to uppercase
 result=name.lower() # convert to lowercase
 result=name.title() # convert to title case (first letter of each word capitalized)
