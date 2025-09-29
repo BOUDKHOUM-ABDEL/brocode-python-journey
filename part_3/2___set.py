@@ -10,8 +10,8 @@ fruits = {"apple", "banana", "coconut"}
 print(fruits) # {'banana', 'coconut', 'apple'}
 #print(fruits[2]) # coconut (error, set does not support indexing
 
-fruits.append("orange") # add item to end of list
-fruits.insert("kiwi") # add item
+fruits.add("orange") # add item to end of list
+fruits.add("kiwi") # add item
 fruits.remove("banana") # remove item by value
 print(fruits) # {'kiwi', 'coconut', 'apple', 'orange'}
 fruits.pop() # remove last item
