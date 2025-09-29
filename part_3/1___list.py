@@ -22,4 +22,4 @@ print(fruits) # ['pear', 'kiwi', 'coconut', 'orange']
 fruits.sort() # sort list alphabetically
 print(fruits) # ['coconut', 'kiwi', 'orange', 'pear']
 fruits.pop() # remove last item
-print(fruit.index("kiwi")) # get index of item
+print(fruits.index("kiwi")) # get index of item
