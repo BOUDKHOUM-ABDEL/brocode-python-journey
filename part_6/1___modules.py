@@ -11,7 +11,7 @@ print(m.e)
 from math import pi
 print(pi)
 
-import module2
+import module2 #importing a module
 
 print(module2.subtract(10,5))
 result = module2.multiply(4,7)
