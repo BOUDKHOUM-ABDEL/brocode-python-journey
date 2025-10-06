@@ -46,3 +46,5 @@ shapes2 = [Rectangle(20,50), Circle(5) , Triangle(3,4) , Pizza("pepperoni",7)]
 # Print the area of each shape
 for shape in shapes2:
     print(f"{type(shape).__name__} area: {shape.area()}")
+
+
