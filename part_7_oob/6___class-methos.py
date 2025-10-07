@@ -36,4 +36,4 @@ student1 = Student("John", 3.5)
 student2 = Student("Jane", 3.8)
 student3 = Student("Doe", 2.8)
 print(Student.get_count()) # There are 3 students in total
-print(f'{Student.get_average_gpa() : .2f}') # 
+print(f'{Student.get_average_gpa() : .2f}') # 3.37
