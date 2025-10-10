@@ -16,3 +16,6 @@ print(array[0][0][0])  #A
 print(array[1][2][0])  #P
 print(array[2][2][1])  #Z
 print(array[0,2,1])    #H
+
+word = array[1,2,0]+array[2,2,0]+array[2,0,1]+array[0,2,1]+array[1,1,2]+array[1,1,1]
+print(word)  #PYTHON
