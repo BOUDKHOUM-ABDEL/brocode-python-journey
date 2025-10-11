@@ -8,20 +8,23 @@ series = pd.Series(calories)
 
 print(series)
 #output:
-#Day1    2000
+#Day1    1750
 #Day2    2100
 #Day3    1700
+#Day4    2000
 #dtype: int64
 
 series.loc["Day3"] +=200
 print(series)
 #output:
-#Day1    2000
+#Day1    1750
 #Day2    2100
 #Day3    1900
+#Day4    2000
 #dtype: int64
 
 print(series[series < 2000])
 #output:
+#Day1    1750
 #Day3    1900
 #dtype: int64
