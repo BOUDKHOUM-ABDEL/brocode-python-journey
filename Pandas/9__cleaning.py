@@ -24,6 +24,8 @@ print(df)
 df["Name"] =df["Name"].str.lower()
 print(df)
 
-# 5.fix data typr
+# 5.fix data type
 df["Legendary"] = df["Legendary"].astype(bool)
 print(df)
+
+
